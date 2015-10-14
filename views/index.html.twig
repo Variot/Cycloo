@@ -1,0 +1,12 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% for bike in bikes %}
+<article>
+    <h2>{{ bike.title }}</h2>
+    <p>{{ bike.content }}</p>
+</article>
+{% endfor %}
+{% endblock %}

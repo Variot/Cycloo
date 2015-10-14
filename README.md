@@ -1,7 +1,7 @@
 
 #SLAM5 : TPDS Cycloo
 
-Travail réalisé variot.anthony@gmail.com
+Travail réalisé par variot.anthony@gmail.com
 
 Contexte
 Cycloo est un magasin lyonnais qui vend des vélos. 

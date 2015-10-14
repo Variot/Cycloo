@@ -1,24 +1,31 @@
-# MicroCMS
 
-Projet MicroCMS géré avec GitHub Classroom.
+#SLAM5 : TPDS Cycloo
 
-Consignes d'installation :
+Contexte
+Cycloo est un magasin lyonnais qui vend des vélos. 
+Vous devez réaliser la page d'accueil de son site Internet. Le résultat demandé est en ligne à l'URL
+https://cycloo.herokuapp.com
+.
+Les scripts de création de la base de données vous sont fournis.
+Organisation
+Vous travaillerez sur votre machine virtuelle. Il est conseillé de commencer par mettre en place son
+environnement de travail (répertoire du projet, hôte virtuel Apache, base de données).
+Vous devez prendre pour modèle d'architecture une itération MicroCMS et vous y conformer (pas de mélange entre itérations !).
 
-* Accepter l'invitation GitHub Classroom pour obtenir le dépôt GitHub `microcms-VotreNom`.
-* Cloner ce dépôt dans le répertoire de travail du serveur Web (exemple : `c:\xampp\htdocs` avec XAMPP pour Windows).
-* Configurer Apache pour définir un hôte virtuel vers ce répertoire. Exemple avec XAMPP sous Windows :
+Critères d'évaluation
+Le projet final est à déposer :
 
-```
-<VirtualHost *:80>
-    DocumentRoot "C:\xampp\htdocs\microcms-VotreNom\web"
-    ServerName microcms
-    <Directory "C:\xampp\htdocs\microcms-VotreNom\web">
-        AllowOverride all
-    </Directory>
-</VirtualHost>
-```
+* soit sous la forme d'un dépôt GitHub public nommé Cycloo sur votre compte GitHub,
 
-* Copier le code source de votre projet MicroCMS dans le répertoire `microcms-VotreNom`.
-* Vérifier que l'URL http://microcms est fonctionnelle.
-* Coder le projet dans ce répertoire et synchroniser régulièrement avec GitHub.
+* soit dans l'espace ProfsEleves, dans un répertoire à votre nom.
 
+Outre la réalisation des fonctionnalités demandées, les critères de qualité ci-dessous seront prisen compte dans la notation. 
+Il est conseillé d'y prêter attention tout au long du TPDS.
+
+* Conformité avec l'architecture étudiée en cours.
+
+* Homogénéité des choix de nommage (actions, paramètres, variables, vues).
+
+* Présentation du code PHP et du code HTML (indentation, aération).
+
+* Orthographe dans le code source et les messages affichés.
